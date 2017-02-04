@@ -1,0 +1,110 @@
+@media (max-width: 600px) {
+  .hideOnMobile {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+html {
+  background: url('../images/blue_background_01.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	#background-color: #E6E6FA;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding : 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: #0E20AA;
+}
+
+/* visited link */
+a:visited {
+    color: #08580D;
+}
+
+/* mouse over link */
+p:hover, li:hover, a:hover {
+    color: #0E20AA;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+h1 {
+	font-size: 40px;
+	font-size: 2.85714rem
+}
+
+h2 {
+	font-size: 16px;
+	font-size: 1.14286rem
+}
+
+h3 {
+	font-size: 28px;
+	font-size: 2rem
+}
+
+p {
+	font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  list-style-image: url('../images/bullet_blue_alt.png');
+}
+
+.sectionStyle {
+	display: inline-block;
+}
+
+.contentSection {
+	word-wrap: break-word;
+}
+
+.imageStyle {
+	width : 150px;
+	height : 150px;
+}
+
+.gridStyle {
+	width: 100%
+}
+
+.gridImageBox {
+	width : 200px;
+	padding : 10px;
+}
+
+.gridContentBox {
+	width : 400px;
+	padding : 10px;
+}
+
+.gridImageBox {
+	width : 30%;
+	padding : 10px;
+}
+
+.gridContentBox {
+	width : 70%;
+	padding : 10px;
+}
+
+.gridContactImage {
+	width : 10%;
+	padding-left: 50px;
+}
+
+.gridContactContent {
+	width : 90%;
+}
